@@ -1,0 +1,59 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day", "Greetings", "what's up?", "how is it going?","yo", "howdy", "salut", "bonjour", "what's good?", "how do you do?", "how do yuh do", "sup", "Ayee"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+},
+
+{"tag":"goodbye",
+    "patterns":["cya","See you later","Goodbye","I am Leaving","Have a Good day","bye","cao","see ya","Later bro","ggs","aight im out","ima head out", "I gotta go"],
+    "responses":["Talk to you later","Goodbye!", "Bye bye now :)"]
+},
+
+{"tag":"checking",
+    "patterns":["how are you?","are you good?","What's good?","are you okay?", "okay?"],
+    "responses":["I'm doing great! how may I help you? :)"]
+},
+
+{"tag":"age",
+    "patterns":["how old","how old are you?","what is your age","age?", "when were you made?"],
+    "responses":["I was born on June 12th of 2022"]
+},
+
+{"tag":"name",
+    "patterns":["what is your name","what should I call you","whats your name?","who are you?","Can you tell me your name?", "what do they call you?"],
+    "responses":["You can call me Zenon!.","I'm Zenon!","I'm Zenon the chatbot!"]
+},
+{"tag":"shop",
+    "patterns":["Id like to buy something","what are your products?","what do you recommend?","what services do you offer?","services?", "what do you do?", "what can you do for me?","do you create websites?", "information"],
+    "responses":["Edward Ornelas is a software developer, he offers website and mobile application solutions"]
+},
+{"tag":"hours",
+    "patterns":["when are you guys open","what are your hours?","hours of operation","hours please","are you open?","when are you available?"],
+    "responses":["Edward is available from 9 to 5", "I'm here to help 24/7"]
+},
+{"tag":"siri",
+    "patterns":["do you know siri?","is siri your friend","siri", "can i talk to siri?"],
+    "responses":["Siri is my bestie", "Siri? yeah I know her"]
+},
+{"tag":"contact",
+    "patterns":["talk to a representative","representative","contact Edward", "help please","help","can i talk to someone", "human", "Edward"],
+    "responses":["email Edward at ornelasedward@rocketmail.com", "contact Edward at ornelasedward@rocketmail.com"]
+},
+{"tag":"code",
+    "patterns":["what coding Languages do you know","What are your skills","Can you code", "What can you code","Coding experience","Do you know coding?", "can you code bro", "Are you a frontend or Backend developer?"],
+    "responses":["Edward knows coding languages such as HTML, CSS, JavaScript, Python, PHP, React, Nextjs etc..."]
+},
+{"tag":"Language",
+    "patterns":["What Language can you speak?", "What Languages can you speak?", "Can you speak Spanish?", "Do you know spanish?", "Spanish fluent", "can you speak fluent spanish?"],
+    "responses":["Edward is bilingual, he can speak Spanish and English fluently"]
+},
+{"tag":"pronoun",
+    "patterns":["What are your pronouns?", "pronouns", "Edward's pronouns", "What do you identify as"],
+    "responses":["Edward's pronouns are He/Him"]
+},
+{"tag":"race",
+    "patterns":["What is your race", "Edwards race", "what race are you", "are you mexican?", "are you white?", "where were you born"],
+    "responses":["Edward is hispanic, descendant of two mexican parents. He was born in Phoenix Arizona in 1997"]
+}
+
+]}
